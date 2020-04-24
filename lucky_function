@@ -1,0 +1,17 @@
+import csv
+import random
+import requests
+import xlrd
+import re
+
+def lucky():
+    url = 'https://github.com/theodevi/lucky_bookshops/blob/master/lucky_choose.csv'
+    r = requests.get(url, timeout=5)
+    with open('lucky_choose.csv', 'wb') as file:
+        file.seek(offset)
+        f.readline()
+        random_line = f.readline()
+        random_line.sub(\;, \n)
+        print(random_line)
+return(random_line)
+        
